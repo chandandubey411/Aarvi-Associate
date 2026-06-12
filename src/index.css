@@ -1,3 +1,232 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* =========================================
+   CSS Custom Properties
+========================================= */
+:root {
+  --gold: #C8A46B;
+  --gold-light: #D4B98A;
+  --gold-dark: #A8843B;
+  --dark: #111111;
+  --cream: #F8F7F4;
+  --white: #FFFFFF;
+}
+
+/* =========================================
+   Base Styles
+========================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F8F7F4;
+  color: #111111;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* =========================================
+   Typography
+========================================= */
+h1, h2, h3 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* =========================================
+   Custom Scrollbar
+========================================= */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F8F7F4;
+}
+::-webkit-scrollbar-thumb {
+  background: #C8A46B;
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #A8843B;
+}
+
+/* =========================================
+   Glassmorphism Utilities
+========================================= */
+@layer components {
+  .glass {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .glass-dark {
+    background: rgba(17, 17, 17, 0.6);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(200, 164, 107, 0.2);
+  }
+
+  .glass-cream {
+    background: rgba(248, 247, 244, 0.8);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(200, 164, 107, 0.15);
+  }
+
+  .gold-text {
+    background: linear-gradient(135deg, #C8A46B 0%, #D4B98A 50%, #A8843B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  .gold-border {
+    border: 1px solid rgba(200, 164, 107, 0.4);
+  }
+
+  .luxury-shadow {
+    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(200, 164, 107, 0.1);
+  }
+
+  .luxury-shadow-lg {
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.2), 0 0 0 1px rgba(200, 164, 107, 0.15);
+  }
+
+  .btn-gold {
+    @apply bg-gold text-dark font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:bg-gold-dark hover:shadow-gold-lg hover:scale-105 font-inter;
+  }
+
+  .btn-outline-gold {
+    @apply border-2 border-gold text-gold font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:bg-gold hover:text-dark hover:shadow-gold font-inter;
+  }
+
+  .btn-outline-white {
+    @apply border-2 border-white text-white font-semibold px-8 py-3 rounded-full transition-all duration-300 hover:bg-white hover:text-dark font-inter;
+  }
+
+  .section-padding {
+    @apply py-20 px-4 md:px-8 lg:px-16 xl:px-24;
+  }
+
+  .container-custom {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .section-label {
+    @apply text-gold text-sm font-semibold tracking-[0.3em] uppercase font-inter;
+  }
+
+  .section-title {
+    @apply text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-dark leading-tight;
+  }
+
+  .section-title-white {
+    @apply text-4xl md:text-5xl lg:text-6xl font-playfair font-bold text-white leading-tight;
+  }
+
+  .section-subtitle {
+    @apply text-lg text-dark/60 font-poppins leading-relaxed;
+  }
+
+  .property-card-hover {
+    @apply transition-all duration-500 hover:shadow-luxury-lg hover:-translate-y-2;
+  }
+
+  .input-luxury {
+    @apply w-full bg-white border border-cream-dark rounded-xl px-5 py-4 text-dark placeholder-dark/40 font-inter text-sm focus:outline-none focus:ring-2 focus:ring-gold focus:border-transparent transition-all duration-300;
+  }
+}
+
+/* =========================================
+   Hero Parallax
+========================================= */
+.hero-bg {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .hero-bg {
+    background-attachment: scroll;
+  }
+}
+
+/* =========================================
+   Number Counter Animation
+========================================= */
+@keyframes countUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* =========================================
+   Marquee
+========================================= */
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* =========================================
+   Page Transition
+========================================= */
+.page-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* =========================================
+   Image Overlay
+========================================= */
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.7s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.08);
+}
+
+/* =========================================
+   Gradient Text Shimmer
+========================================= */
+@keyframes shimmer {
+  0% { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+
+.shimmer-gold {
+  background: linear-gradient(90deg, #A8843B, #C8A46B, #D4B98A, #C8A46B, #A8843B);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  animation: shimmer 4s linear infinite;
+}
