@@ -13,8 +13,8 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'info@avniassociate.com',
-    href: 'mailto:info@avniassociate.com',
+    value: 'info@aarviassociate.com',
+    href: 'mailto:info@aarviassociate.com',
   },
   {
     icon: MapPin,

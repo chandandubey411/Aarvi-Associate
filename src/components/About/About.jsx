@@ -33,13 +33,12 @@ export default function About() {
             <div className="relative rounded-3xl overflow-hidden luxury-shadow-lg">
               <img
                 src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=80"
-                alt="Luxury Property - Avni Associate"
+                alt="Luxury Property - Aarvi Associate"
                 className="w-full h-[550px] object-cover"
                 loading="lazy"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-dark/60 via-transparent to-transparent" />
             </div>
-
             {/* Floating Badge */}
             <motion.div
               initial={{ opacity: 0, scale: 0.8 }}
@@ -86,12 +85,12 @@ export default function About() {
             </div>
 
             <h2 className="section-title mb-6">
-              About Avni<br />
+              About Aarvi<br />
               <span className="gold-text">Associate</span>
             </h2>
 
             <p className="section-subtitle mb-8">
-              Avni Associate is a trusted real estate consultancy helping clients buy, sell, rent and invest 
+              Aarvi Associate is a trusted real estate consultancy helping clients buy, sell, rent and invest 
               in premium residential and commercial properties across the NCR region. We bring transparency, 
               expertise, and a client-first approach to every transaction.
             </p>

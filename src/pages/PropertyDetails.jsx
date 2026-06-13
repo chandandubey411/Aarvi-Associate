@@ -16,7 +16,7 @@ export default function PropertyDetails() {
   useEffect(() => {
     window.scrollTo(0, 0)
     if (property) {
-      document.title = `${property.name} – Avni Associate`
+      document.title = `${property.name} – Aarvi Associate`
     }
     setActiveImg(0)
   }, [id, property])
@@ -221,7 +221,7 @@ export default function PropertyDetails() {
                 </div>
                 <h3 className="font-playfair text-white text-xl font-bold">{property.agent}</h3>
                 <p className="font-inter text-gold text-sm">Property Advisor</p>
-                <p className="font-inter text-white/40 text-xs mt-1">Avni Associate</p>
+                <p className="font-inter text-white/40 text-xs mt-1">Aarvi Associate</p>
               </div>
 
               <div className="space-y-3 mb-6">

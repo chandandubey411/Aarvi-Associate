@@ -50,7 +50,7 @@ export default function Testimonials() {
             What Our Clients <span className="gold-text">Say</span>
           </h2>
           <p className="section-subtitle max-w-xl mx-auto">
-            Real stories from real clients who found their dream properties through Avni Associate.
+            Real stories from real clients who found their dream properties through Aarvi Associate.
           </p>
         </motion.div>
 

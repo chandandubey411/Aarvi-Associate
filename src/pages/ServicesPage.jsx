@@ -23,7 +23,7 @@ function PageHero() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-8 lg:px-16 xl:px-24 pb-12 w-full">
         <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
           <div className="flex items-center gap-2 mb-3">
-            <span className="font-inter text-xs text-gold uppercase tracking-widest">Avni Associate</span>
+            <span className="font-inter text-xs text-gold uppercase tracking-widest">Aarvi Associate</span>
             <span className="text-white/30 text-xs">/</span>
             <span className="font-inter text-xs text-white/50">Services</span>
           </div>
@@ -41,7 +41,7 @@ export default function ServicesPage() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
-    document.title = 'Services – Avni Associate | Real Estate Solutions'
+    document.title = 'Services – Aarvi Associate | Real Estate Solutions'
   }, [])
 
   return (

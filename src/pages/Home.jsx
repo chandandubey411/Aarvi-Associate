@@ -12,7 +12,7 @@ import Contact from '../components/Contact/Contact'
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0)
-    document.title = 'Avni Associate – Your Trusted Property Partner | Luxury Real Estate'
+    document.title = 'Aarvi Associate – Your Trusted Property Partner | Luxury Real Estate'
   }, [])
 
   return (

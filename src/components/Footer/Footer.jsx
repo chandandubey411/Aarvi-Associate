@@ -62,7 +62,7 @@ export default function Footer() {
                 </svg>
               </div>
               <div>
-                <span className="font-playfair font-bold text-lg text-white block leading-tight">Avni Associate</span>
+                <span className="font-playfair font-bold text-lg text-white block leading-tight">Aarvi Associate</span>
                 <span className="text-gold text-xs font-inter tracking-wider">Your Trusted Property Partner</span>
               </div>
             </Link>
@@ -149,13 +149,13 @@ export default function Footer() {
                 </div>
               </a>
 
-              <a href="mailto:info@avniassociate.com" className="flex items-start gap-3 group">
+              <a href="mailto:info@aarviassociate.com" className="flex items-start gap-3 group">
                 <div className="w-8 h-8 rounded-xl bg-gold/20 flex items-center justify-center flex-shrink-0 group-hover:bg-gold transition-colors">
                   <Mail size={14} className="text-gold group-hover:text-dark transition-colors" />
                 </div>
                 <div>
                   <div className="font-inter text-xs text-white/30 mb-0.5">Email</div>
-                  <div className="font-inter text-sm text-white/70 group-hover:text-gold transition-colors">info@avniassociate.com</div>
+                  <div className="font-inter text-sm text-white/70 group-hover:text-gold transition-colors">info@aarviassociate.com</div>
                 </div>
               </a>
 
@@ -180,7 +180,7 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 md:px-8 lg:px-16 xl:px-24 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="font-inter text-sm text-white/30">
-              © {new Date().getFullYear()} Avni Associate. All Rights Reserved.
+              © {new Date().getFullYear()} Aarvi Associate. All Rights Reserved.
             </p>
             <div className="flex items-center gap-6">
               <span className="font-inter text-xs text-white/20">RERA Registered</span>

@@ -66,7 +66,7 @@ export default function WhyChooseUs() {
             <div className="h-px w-10 bg-gold" />
           </div>
           <h2 className="section-title mb-4">
-            Why Choose <span className="gold-text">Avni Associate</span>
+            Why Choose <span className="gold-text">Aarvi Associate</span>
           </h2>
           <p className="section-subtitle max-w-2xl mx-auto">
             We combine local expertise, trusted partnerships, and cutting-edge market intelligence 

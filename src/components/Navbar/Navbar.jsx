@@ -63,7 +63,7 @@ export default function Navbar() {
                 <span className={`font-playfair font-bold text-lg leading-tight transition-colors duration-300 ${
                   scrolled ? 'text-dark' : 'text-white'
                 }`}>
-                  Avni Associate
+                  Aarvi Associate
                 </span>
                 <span className="text-gold text-xs font-inter tracking-wider">
                   Your Trusted Property Partner
@@ -148,7 +148,7 @@ export default function Navbar() {
             >
               <div className="p-8 pt-24">
                 <div className="mb-8 pb-6 border-b border-gold/20">
-                  <span className="font-playfair text-2xl text-white block mb-1">Avni Associate</span>
+                  <span className="font-playfair text-2xl text-white block mb-1">Aarvi Associate</span>
                   <span className="text-gold text-sm font-inter">Your Trusted Property Partner</span>
                 </div>
 

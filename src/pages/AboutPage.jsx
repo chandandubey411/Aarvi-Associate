@@ -7,7 +7,7 @@ import Team from '../components/Team/Team'
 import Contact from '../components/Contact/Contact'
 
 const milestones = [
-  { year: '2009', title: 'Founded', desc: 'Avni Associate was established with a vision to revolutionize real estate in NCR.' },
+  { year: '2009', title: 'Founded', desc: 'Aarvi Associate was established with a vision to revolutionize real estate in NCR.' },
   { year: '2013', title: 'First 100 Properties', desc: 'Achieved our first major milestone of 100 successful property transactions.' },
   { year: '2017', title: 'Commercial Division', desc: 'Launched dedicated commercial real estate division serving corporate clients.' },
   { year: '2020', title: 'Digital Transformation', desc: 'Embraced technology with digital property tours and online documentation.' },
@@ -20,7 +20,7 @@ function PageHero() {
       <div className="absolute inset-0">
         <img
           src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=1600&q=80"
-          alt="About Avni Associate"
+          alt="About Aarvi Associate"
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-dark/70 via-dark/50 to-dark/90" />
@@ -32,7 +32,7 @@ function PageHero() {
           transition={{ duration: 0.8 }}
         >
           <div className="flex items-center gap-2 mb-3">
-            <span className="font-inter text-xs text-gold uppercase tracking-widest">Avni Associate</span>
+            <span className="font-inter text-xs text-gold uppercase tracking-widest">Aarvi Associate</span>
             <span className="text-white/30 text-xs">/</span>
             <span className="font-inter text-xs text-white/50">About</span>
           </div>
@@ -50,7 +50,7 @@ export default function AboutPage() {
 
   useEffect(() => {
     window.scrollTo(0, 0)
-    document.title = 'About Us – Avni Associate | Real Estate Consultancy'
+    document.title = 'About Us – Aarvi Associate | Real Estate Consultancy'
   }, [])
 
   return (
@@ -74,7 +74,7 @@ export default function AboutPage() {
                 Trusted Real Estate <span className="gold-text">Partners</span> Since 2009
               </h2>
               <p className="font-poppins text-dark/65 leading-relaxed mb-5">
-                Avni Associate was born from a simple belief — that every client deserves honest, 
+                Aarvi Associate was born from a simple belief — that every client deserves honest, 
                 expert guidance when making one of the most significant decisions of their life. 
                 Founded in 2009, we have grown from a small consultancy to one of NCR's most 
                 respected real estate firms.
@@ -111,7 +111,7 @@ export default function AboutPage() {
               <div className="rounded-3xl overflow-hidden luxury-shadow-lg">
                 <img
                   src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=700&q=80"
-                  alt="Avni Associate Office"
+                  alt="Aarvi Associate Office"
                   className="w-full h-[500px] object-cover"
                 />
               </div>
