@@ -10,7 +10,7 @@ export const teamMembers = [
     social: {
       linkedin: "#",
       instagram: "#",
-      whatsapp: "+919876543210",
+      whatsapp: "+919211786678",
     },
     propertiesSold: 180,
   },

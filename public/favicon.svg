@@ -1,4 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="8" fill="#C8A46B"/>
-  <text x="16" y="23" font-family="Georgia, serif" font-size="18" font-weight="bold" fill="#111111" text-anchor="middle">A</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- Aarvi Associate Brand Logo -->
+  <path d="M50 10L90 50L50 90L10 50L50 10Z" stroke="url(#goldGrad)" strokeWidth="4" strokeLinejoin="round" />
+  <path d="M50 28L72 70" stroke="url(#goldGrad)" strokeWidth="5" strokeLinecap="round" />
+  <path d="M50 28L28 70" stroke="url(#goldGrad)" strokeWidth="5" strokeLinecap="round" />
+  <path d="M35 56H65" stroke="url(#goldGrad)" strokeWidth="5" strokeLinecap="round" />
+  <path d="M50 38V56" stroke="url(#goldGrad)" strokeWidth="4" strokeLinecap="round" />
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#FFE5A3" />
+      <stop offset="30%" stopColor="#C8A46B" />
+      <stop offset="70%" stopColor="#A88247" />
+      <stop offset="100%" stopColor="#FFE5A3" />
+    </linearGradient>
+  </defs>
 </svg>

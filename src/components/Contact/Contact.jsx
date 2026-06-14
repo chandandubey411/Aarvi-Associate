@@ -7,8 +7,8 @@ const contactInfo = [
   {
     icon: Phone,
     label: 'Phone',
-    value: '+91-9876543210',
-    href: 'tel:+919876543210',
+    value: '+91-9211786678',
+    href: 'tel:+919211786678',
   },
   {
     icon: Mail,
@@ -25,8 +25,8 @@ const contactInfo = [
   {
     icon: MessageCircle,
     label: 'WhatsApp',
-    value: '+91-9876543210',
-    href: 'https://wa.me/919876543210',
+    value: '+91-9211786678',
+    href: 'https://wa.me/919211786678',
   },
 ]
 

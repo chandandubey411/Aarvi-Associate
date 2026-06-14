@@ -22,7 +22,7 @@ export const properties = [
     description: "Experience ultra-luxury living in this stunning penthouse with panoramic city views, designer interiors, and world-class amenities.",
     amenities: ["Swimming Pool", "Home Theater", "Private Gym", "Concierge Service", "Smart Home", "Parking x3", "Terrace Garden", "Wine Cellar"],
     agent: "Rajiv Sharma",
-    agentPhone: "+91-9876543210",
+    agentPhone: "+91-9211786678",
     mapEmbed: "https://maps.google.com/maps?q=Sector+150+Noida&output=embed",
   },
   {
@@ -94,7 +94,7 @@ export const properties = [
     description: "Premium high-rise apartment with stunning views, located in the heart of Noida's IT corridor.",
     amenities: ["Rooftop Pool", "Gym", "Business Center", "Parking", "Security", "Power Backup"],
     agent: "Rajiv Sharma",
-    agentPhone: "+91-9876543210",
+    agentPhone: "+91-9211786678",
     mapEmbed: "https://maps.google.com/maps?q=Sector+137+Noida&output=embed",
   },
   {
@@ -163,7 +163,7 @@ export const properties = [
     description: "Spacious independent bungalow with a private garden, perfect for large families seeking privacy and comfort.",
     amenities: ["Private Garden", "Modular Kitchen", "Parking", "Security", "Servant Quarter"],
     agent: "Rajiv Sharma",
-    agentPhone: "+91-9876543210",
+    agentPhone: "+91-9211786678",
     mapEmbed: "https://maps.google.com/maps?q=Indirapuram+Ghaziabad&output=embed",
   },
   {
@@ -232,7 +232,7 @@ export const properties = [
     description: "Affordable luxury living with metro connectivity, modern interiors and a thriving residential community.",
     amenities: ["Gym", "Swimming Pool", "Security", "Parking", "Club House"],
     agent: "Rajiv Sharma",
-    agentPhone: "+91-9876543210",
+    agentPhone: "+91-9211786678",
     mapEmbed: "https://maps.google.com/maps?q=Noida+Extension&output=embed",
   },
   {
