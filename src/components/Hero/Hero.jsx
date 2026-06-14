@@ -26,7 +26,7 @@ export default function Hero() {
   const opacity = useTransform(scrollY, [0, 400], [1, 0])
 
   return (
-    <section ref={ref} className="relative h-screen min-h-[660px] lg:min-h-[700px] flex items-center overflow-hidden pt-28 pb-16 lg:py-0">
+    <section ref={ref} className="relative min-h-screen min-h-[660px] lg:min-h-[700px] flex items-center overflow-hidden pt-32 pb-24 lg:py-0">
       {/* Parallax Background */}
       <motion.div
         style={{ y }}

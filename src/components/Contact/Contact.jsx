@@ -13,13 +13,13 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'info@aarviassociate.com',
-    href: 'mailto:info@aarviassociate.com',
+    value: 'aarviassociate77@gmail.com',
+    href: 'mailto:aarviassociate77@gmail.com',
   },
   {
     icon: MapPin,
     label: 'Office Address',
-    value: 'Shop No. 46, Near Mother Dairy, Sector 4, Vaishali, Ghaziabad, UP 201010',
+    value: 'SHOP NO 1, PLOT NO 533, Sector 5, Vaishali, Ghaziabad, Uttar Pradesh 201019',
     href: '#',
   },
   {
@@ -70,12 +70,12 @@ export default function Contact() {
         <div className="grid lg:grid-cols-5 gap-12">
           {/* Left: Contact Info */}
           <motion.div
-            initial={{ opacity: 0, x: -40 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 30 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8 }}
             className="lg:col-span-2"
           >
-            <div className="bg-dark rounded-3xl p-10 h-full relative overflow-hidden">
+            <div className="bg-dark rounded-3xl p-6 sm:p-10 h-full relative overflow-hidden">
               {/* Background decoration */}
               <div className="absolute top-0 right-0 w-48 h-48 bg-gold/10 rounded-full filter blur-3xl" />
               <div className="absolute bottom-0 left-0 w-32 h-32 bg-gold/5 rounded-full filter blur-2xl" />
@@ -93,8 +93,8 @@ export default function Contact() {
                     <motion.a
                       key={item.label}
                       href={item.href}
-                      initial={{ opacity: 0, x: -20 }}
-                      animate={inView ? { opacity: 1, x: 0 } : {}}
+                      initial={{ opacity: 0, y: 15 }}
+                      animate={inView ? { opacity: 1, y: 0 } : {}}
                       transition={{ delay: 0.2 + index * 0.1, duration: 0.5 }}
                       className="flex items-start gap-4 group cursor-pointer"
                       target={item.href.startsWith('http') ? '_blank' : undefined}
@@ -107,7 +107,7 @@ export default function Contact() {
                         <div className="font-inter text-xs text-white/40 uppercase tracking-wider mb-1">
                           {item.label}
                         </div>
-                        <div className="font-inter text-sm text-white/80 group-hover:text-gold transition-colors">
+                        <div className="font-inter text-sm text-white/80 group-hover:text-gold transition-colors break-words">
                           {item.value}
                         </div>
                       </div>
@@ -128,12 +128,12 @@ export default function Contact() {
 
           {/* Right: Form */}
           <motion.div
-            initial={{ opacity: 0, x: 40 }}
-            animate={inView ? { opacity: 1, x: 0 } : {}}
+            initial={{ opacity: 0, y: 30 }}
+            animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.8, delay: 0.1 }}
             className="lg:col-span-3"
           >
-            <div className="bg-cream rounded-3xl p-10 luxury-shadow">
+            <div className="bg-cream rounded-3xl p-6 sm:p-10 luxury-shadow">
               <h3 className="font-playfair text-2xl font-bold text-dark mb-2">Send Inquiry</h3>
               <p className="font-poppins text-dark/50 text-sm mb-8">
                 Fill in the details and we'll get back to you within 24 hours.

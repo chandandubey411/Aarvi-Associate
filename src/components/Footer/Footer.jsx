@@ -149,13 +149,13 @@ export default function Footer() {
                 </div>
               </a>
 
-              <a href="mailto:info@aarviassociate.com" className="flex items-start gap-3 group">
+              <a href="mailto:aarviassociate77@gmail.com" className="flex items-start gap-3 group">
                 <div className="w-8 h-8 rounded-xl bg-gold/20 flex items-center justify-center flex-shrink-0 group-hover:bg-gold transition-colors">
                   <Mail size={14} className="text-gold group-hover:text-dark transition-colors" />
                 </div>
                 <div>
                   <div className="font-inter text-xs text-white/30 mb-0.5">Email</div>
-                  <div className="font-inter text-sm text-white/70 group-hover:text-gold transition-colors">info@aarviassociate.com</div>
+                  <div className="font-inter text-sm text-white/70 group-hover:text-gold transition-colors">aarviassociate77@gmail.com</div>
                 </div>
               </a>
 
@@ -166,7 +166,7 @@ export default function Footer() {
                 <div>
                   <div className="font-inter text-xs text-white/30 mb-0.5">Address</div>
                   <div className="font-inter text-sm text-white/70 leading-relaxed">
-                    Shop No. 46, Near Mother Dairy,<br />Sector 4, Vaishali, Ghaziabad, UP 201010
+                    SHOP NO 1, PLOT NO 533,<br />Sector 5, Vaishali, Ghaziabad, Uttar Pradesh 201019
                   </div>
                 </div>
               </div>

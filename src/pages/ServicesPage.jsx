@@ -77,8 +77,8 @@ export default function ServicesPage() {
               return (
                 <motion.div
                   key={service.id}
-                  initial={{ opacity: 0, x: isEven ? -50 : 50 }}
-                  animate={inView ? { opacity: 1, x: 0 } : {}}
+                  initial={{ opacity: 0, y: 30 }}
+                  animate={inView ? { opacity: 1, y: 0 } : {}}
                   transition={{ delay: index * 0.1, duration: 0.7 }}
                   className={`grid lg:grid-cols-2 gap-12 items-center ${!isEven ? 'lg:flex-row-reverse' : ''}`}
                 >
