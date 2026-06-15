@@ -31,7 +31,7 @@ const YoutubeIcon = ({ size = 16, className = '' }) => (
   </svg>
 )
 
-const quickLinks = ['Home', 'About', 'Properties', 'Services', 'Contact']
+const quickLinks = ['Home', 'About', 'Services', 'Contact']
 const serviceLinks = ['Property Buying', 'Property Selling', 'Rental Services', 'Commercial Property', 'Investment Consulting']
 const featuredAreas = ['Sector 150, Noida', 'Greater Noida West', 'Indirapuram', 'Vaishali', 'Sector 137, Noida']
 

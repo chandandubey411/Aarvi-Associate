@@ -6,8 +6,6 @@ import Footer from '../components/Footer/Footer'
 
 const Home = lazy(() => import('../pages/Home'))
 const AboutPage = lazy(() => import('../pages/AboutPage'))
-const Properties = lazy(() => import('../pages/Properties'))
-const PropertyDetails = lazy(() => import('../pages/PropertyDetails'))
 const ServicesPage = lazy(() => import('../pages/ServicesPage'))
 const ContactPage = lazy(() => import('../pages/ContactPage'))
 
@@ -64,8 +62,6 @@ export default function AppRoutes() {
             <Routes location={location}>
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<AboutPage />} />
-              <Route path="/properties" element={<Properties />} />
-              <Route path="/properties/:id" element={<PropertyDetails />} />
               <Route path="/services" element={<ServicesPage />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="*" element={

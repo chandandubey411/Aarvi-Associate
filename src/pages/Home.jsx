@@ -2,7 +2,6 @@ import { useEffect } from 'react'
 import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
 import Services from '../components/Services/Services'
-import FeaturedProperties from '../components/FeaturedProperties/FeaturedProperties'
 import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs'
 import Team from '../components/Team/Team'
 import Testimonials from '../components/Testimonials/Testimonials'
@@ -20,7 +19,6 @@ export default function Home() {
       <Hero />
       <About />
       <Stats />
-      <FeaturedProperties />
       <WhyChooseUs />
       <Services />
       <Team />
