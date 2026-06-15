@@ -3,7 +3,6 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { CheckCircle2, Award, Users, TrendingUp, Home, Building } from 'lucide-react'
 import { Link } from 'react-router-dom'
-import Team from '../components/Team/Team'
 import Contact from '../components/Contact/Contact'
 
 const milestones = [
@@ -164,8 +163,6 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
-
-      <Team />
       <Contact />
     </main>
   )

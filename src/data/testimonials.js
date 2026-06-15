@@ -16,7 +16,7 @@ export const testimonials = [
     location: "Greater Noida",
     rating: 5,
     review: "Exceptional service from start to finish! Priya Singh helped us find the perfect villa within our budget. The paperwork was handled smoothly and we moved in ahead of schedule.",
-    image: "https://images.unsplash.com/photo-1494790108755-2616b612b5bc?w=150&q=80",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhU2Lws7NaBLMJuHhyj_5hdeVsA6fzQZHo8Q&s",
     property: "Green Valley Villa",
   },
   {

@@ -3,7 +3,6 @@ import Hero from '../components/Hero/Hero'
 import About from '../components/About/About'
 import Services from '../components/Services/Services'
 import WhyChooseUs from '../components/WhyChooseUs/WhyChooseUs'
-import Team from '../components/Team/Team'
 import Testimonials from '../components/Testimonials/Testimonials'
 import Stats from '../components/Stats/Stats'
 import Contact from '../components/Contact/Contact'
@@ -21,7 +20,6 @@ export default function Home() {
       <Stats />
       <WhyChooseUs />
       <Services />
-      <Team />
       <Testimonials />
       <Contact />
     </main>
