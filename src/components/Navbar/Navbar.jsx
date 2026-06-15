@@ -14,16 +14,18 @@ export default function Navbar() {
   const [scrolled, setScrolled] = useState(false)
   const [menuOpen, setMenuOpen] = useState(false)
   const location = useLocation()
+  const [prevPath, setPrevPath] = useState(location.pathname)
+
+  if (location.pathname !== prevPath) {
+    setPrevPath(location.pathname)
+    setMenuOpen(false)
+  }
 
   useEffect(() => {
     const handleScroll = () => setScrolled(window.scrollY > 50)
     window.addEventListener('scroll', handleScroll)
     return () => window.removeEventListener('scroll', handleScroll)
   }, [])
-
-  useEffect(() => {
-    setMenuOpen(false)
-  }, [location])
 
   return (
     <>

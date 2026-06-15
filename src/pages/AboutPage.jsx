@@ -1,8 +1,7 @@
 import { useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
-import { CheckCircle2, Award, Users, TrendingUp, Home, Building } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Award, Users, Home, Building } from 'lucide-react'
 import Contact from '../components/Contact/Contact'
 
 const milestones = [

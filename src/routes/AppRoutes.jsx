@@ -8,6 +8,8 @@ const Home = lazy(() => import('../pages/Home'))
 const AboutPage = lazy(() => import('../pages/AboutPage'))
 const ServicesPage = lazy(() => import('../pages/ServicesPage'))
 const ContactPage = lazy(() => import('../pages/ContactPage'))
+const Properties = lazy(() => import('../pages/Properties'))
+const PropertyDetails = lazy(() => import('../pages/PropertyDetails'))
 
 const pageVariants = {
   initial: { opacity: 0, y: 20 },
@@ -64,6 +66,8 @@ export default function AppRoutes() {
               <Route path="/about" element={<AboutPage />} />
               <Route path="/services" element={<ServicesPage />} />
               <Route path="/contact" element={<ContactPage />} />
+              <Route path="/properties" element={<Properties />} />
+              <Route path="/properties/:id" element={<PropertyDetails />} />
               <Route path="*" element={
                 <div className="min-h-screen flex flex-col items-center justify-center bg-cream">
                   <div className="text-8xl mb-6">🏠</div>

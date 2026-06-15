@@ -12,13 +12,18 @@ export default function PropertyDetails() {
   const [activeImg, setActiveImg] = useState(0)
   const [form, setForm] = useState({ name: '', phone: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
+  const [prevId, setPrevId] = useState(id)
+
+  if (id !== prevId) {
+    setPrevId(id)
+    setActiveImg(0)
+  }
 
   useEffect(() => {
     window.scrollTo(0, 0)
     if (property) {
       document.title = `${property.name} – Aarvi Associate`
     }
-    setActiveImg(0)
   }, [id, property])
 
   if (!property) {

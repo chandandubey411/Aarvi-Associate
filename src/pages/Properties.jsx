@@ -1,6 +1,6 @@
 import { useState, useEffect, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, SlidersHorizontal, X, ChevronLeft, ChevronRight, ArrowUpDown } from 'lucide-react'
+import { Search, X, ChevronLeft, ChevronRight } from 'lucide-react'
 import PropertyCard from '../components/PropertyCard/PropertyCard'
 import { properties, propertyTypes, cities, bedroomOptions } from '../data/properties'
 
@@ -40,7 +40,6 @@ export default function Properties() {
   const [beds, setBeds] = useState('All')
   const [sort, setSort] = useState('default')
   const [page, setPage] = useState(1)
-  const [showFilters, setShowFilters] = useState(false)
 
   useEffect(() => {
     window.scrollTo(0, 0)
