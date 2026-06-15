@@ -43,22 +43,8 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 flex items-center justify-center flex-shrink-0 transition-transform duration-300 hover:scale-105">
-                <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-full h-full">
-                  <path d="M50 10L90 50L50 90L10 50L50 10Z" stroke="url(#goldGradFooter)" strokeWidth="4" strokeLinejoin="round" />
-                  <path d="M50 28L72 70" stroke="url(#goldGradFooter)" strokeWidth="5" strokeLinecap="round" />
-                  <path d="M50 28L28 70" stroke="url(#goldGradFooter)" strokeWidth="5" strokeLinecap="round" />
-                  <path d="M35 56H65" stroke="url(#goldGradFooter)" strokeWidth="5" strokeLinecap="round" />
-                  <path d="M50 38V56" stroke="url(#goldGradFooter)" strokeWidth="4" strokeLinecap="round" />
-                  <defs>
-                    <linearGradient id="goldGradFooter" x1="0%" y1="0%" x2="100%" y2="100%">
-                      <stop offset="0%" stopColor="#FFE5A3" />
-                      <stop offset="30%" stopColor="#C8A46B" />
-                      <stop offset="70%" stopColor="#A88247" />
-                      <stop offset="100%" stopColor="#FFE5A3" />
-                    </linearGradient>
-                  </defs>
-                </svg>
+              <div className="w-12 h-12 flex items-center justify-center flex-shrink-0 transition-transform duration-300 hover:scale-105 rounded-md overflow-hidden">
+                <img src='/logo.jpeg'/>
               </div>
               <div>
                 <span className="font-playfair font-bold text-lg text-white block leading-tight">Aarvi Associate</span>
