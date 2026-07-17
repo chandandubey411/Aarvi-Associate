@@ -62,7 +62,7 @@ export default function Footer() {
                 { icon: FacebookIcon, href: '#', label: 'Facebook' },
                 { icon: LinkedinIcon, href: '#', label: 'LinkedIn' },
                 { icon: YoutubeIcon, href: '#', label: 'YouTube' },
-                { icon: MessageCircle, href: 'https://wa.me/919211786678', label: 'WhatsApp' },
+                { icon: MessageCircle, href: 'https://wa.me/917982641564', label: 'WhatsApp' },
               ].map(({ icon: Icon, href, label }) => (
                 <a
                   key={label}
@@ -124,13 +124,13 @@ export default function Footer() {
               Contact Info
             </h4>
             <div className="space-y-5">
-              <a href="tel:+919211786678" className="flex items-start gap-3 group">
+              <a href="tel:+917982641564" className="flex items-start gap-3 group">
                 <div className="w-8 h-8 rounded-xl bg-gold/20 flex items-center justify-center flex-shrink-0 group-hover:bg-gold transition-colors">
                   <Phone size={14} className="text-gold group-hover:text-dark transition-colors" />
                 </div>
                 <div>
                   <div className="font-inter text-xs text-white/30 mb-0.5">Phone</div>
-                  <div className="font-inter text-sm text-white/70 group-hover:text-gold transition-colors">+91-9211786678</div>
+                  <div className="font-inter text-sm text-white/70 group-hover:text-gold transition-colors">+91-7982641564</div>
                 </div>
               </a>
 

@@ -83,13 +83,13 @@ export default function Navbar() {
             {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-4">
               <a
-                href="tel:+919211786678"
+                href="tel:+917982641564"
                 className={`flex items-center gap-2 font-inter text-sm font-medium transition-colors duration-300 ${
                   scrolled ? 'text-dark/70 hover:text-gold' : 'text-white/80 hover:text-gold'
                 }`}
               >
                 <Phone size={14} />
-                +91-9211786678
+                +91-7982641564
               </a>
               <Link
                 to="/contact"
@@ -163,11 +163,11 @@ export default function Navbar() {
 
                 <div className="mt-8 space-y-4">
                   <a
-                    href="tel:+919211786678"
+                    href="tel:+917982641564"
                     className="flex items-center gap-3 text-white/70 hover:text-gold font-inter text-sm transition-colors"
                   >
                     <Phone size={16} />
-                    +91-9211786678
+                    +91-7982641564
                   </a>
                   <Link
                     to="/contact"
